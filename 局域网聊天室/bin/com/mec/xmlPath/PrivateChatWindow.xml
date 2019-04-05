@@ -1,0 +1,17 @@
+<Window>
+	<head> 
+		<title>聊天室</title>
+		<size width="500" height="600" />
+		<location x="50" y="50" />
+		<resizable>false</resizable>
+	</head>
+	
+	<body>
+		<textarea id = "taReceive" width="470" height="360" x="10" y="10" autoScroll="true"/>
+		<textarea id = "inputing" width="470" height="140" x="10" y="380" autoScroll="true"/>
+		
+		<button id = "jbtnSend" widht="60" height="30" x="10" y="530" text="发送"/>
+		<button widht="60" height="30" x="75" y="530" text="关闭"/>
+	</body>
+</Window>
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<head>
+		<title>ServerWindow</title>
+		<size width="432" height="500"/>
+		<location x="50" y="50"/>
+		<resizable>true</resizable>
+	</head>
+		
+	<body>
+		<button id = "buttonStart" width="98" height="30" x="215" y="405" text="连接"/>
+		<button id = "buttonStop" width="70" height="30" x="315" y="405" text="断开"/>
+		
+		<textarea id = "taReceiveMsg" width = "775" height = "390" 
+		x = "10" y = "10" Enable = "true" text = "This is Get INFOR!" autoScroll = "true"/>
+		
+		<label id = "port" width="60" height="30" x="10" y="405" text = "端口号:"></label>
+		<textfield id = "tbPort" width="60" height="30" x="70" y="405"/>
+	</body>
+</Window>

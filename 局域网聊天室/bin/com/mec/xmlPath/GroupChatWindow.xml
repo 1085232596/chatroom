@@ -1,0 +1,22 @@
+<Window>
+	<head> 
+		<title>省港澳第一聊天室-群聊天室</title>
+		<size width="700" height="600" />
+		<location x="50" y="50" />
+		<resizable>false</resizable>
+	</head>
+	
+	<body>
+		<textarea id = "AccordingTextArea" width="470" height="360" x="10" y="10" autoScroll="true"/>
+		<textarea id = "inputTextArea" width="470" height="140" x="10" y="380" autoScroll="true"/>
+		
+		<list id="listFriendList" width="200" height="510" x="490" y="10" autoScroll="true">
+			<item></item>
+			
+		</list>
+		
+		<button id = "sendButton" widht="60" height="30" x="10" y="530" text="发送"/>
+		<button id = "exitButton" widht="60" height="30" x="75" y="530" text="登出"/>
+		<button id = "exitClear" widht="60" height="30" x="200" y="530" text="清空"/>
+	</body>
+</Window>

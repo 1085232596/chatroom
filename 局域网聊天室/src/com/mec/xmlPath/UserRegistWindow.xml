@@ -1,0 +1,32 @@
+<Window>
+	<head> 
+		<title>局域网聊天室-欢迎注册</title>
+		<size width="300" height="300" />
+		<location x="50" y="50" />
+		<resizable>false</resizable>
+	</head>
+	
+	<body>
+		
+		<label width="65" height="30"  x="10" y="10" text="用户名："/>
+		<label width="65" height="30"  x="10" y="50" text="密    码："/>
+		<label width="65" height="30"  x="10" y="90" text="密码确认："/>
+		<label width="65" height="30"  x="10" y="130" text="性    别："/>
+		<label width="65" height="30"  x="10" y="170" text="电话号码："/>
+		
+		<textfield id="tbUserName" width="200" height="30" x="80" y="10" />
+		<password id="tbUserPassword" width="200" height="30" x="80" y="50" />
+		<password id="tbReUserPassword" width="200" height="30" x="80" y="90" />
+		
+		<buttonGroup>
+			<radio id="rdSexMale" selected="true" width="50" height="30" x="80" y="130" text="男"/>
+			<radio width="50" height="30" x="135" y="130" text="女"/>
+		</buttonGroup>
+		
+		<textfield id="tbPhoneNo" width="200" height="30" x="80" y="170" />
+		
+		<button id="btnSubmit" widht="60" height="30" x="10" y="220" text="提交"/>
+		<button widht="60" height="30" x="75" y="220" text="关闭"/>
+	</body>
+</Window>
+

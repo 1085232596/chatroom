@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window>
+	<head>
+		<title>登陆界面</title>
+		<size width="300" height="260"/>
+		<location x="50" y="50"/>
+		<resizable>false</resizable>
+	</head>
+		
+	<body>
+		<button id = "buttonLogin" width="60" height="30" x="43" y="138" text="登录" />
+		<button id = "buttonRegister" width="60" height="30" x="113" y="138" text="注册" font = ""/>
+		<button id = "buttonSetting" width="60" height="30" x="183" y="138" text="设置" font = ""/>
+		
+		<label id = "title" width="280" height="40" x="74" y="5" text = "省港澳第一聊天室" font = ""></label>
+		<label id = "user" width="60" height="30" x="30" y="58" text = "用户名"></label>
+		<label id = "passwd" width="60" height="30" x="30" y="98" text = "密    码"></label>
+		<label id = "serverIp" width="80" height="30" x="10" y="178" text = "服务器地址"></label>
+		
+		
+		<textfield id = "textUser" width="150" height="30" x="83" y="58"/>
+		<textfield id = "tbServerIp" width="150" height="30" x="83" y="178"  text = ""/>
+		<password id = "textPassword" width="150" height="30" x="83" y="98"/>
+	</body>
+</Window>
